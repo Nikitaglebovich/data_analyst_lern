@@ -1,0 +1,9 @@
+payers = [75, 48, 65, 68, 74, 67, 71, 65, 90, 85, 79, 81]
+purchase_amount = 5  # сумма покупки в долларах
+
+# создайте список monthly_income
+monthly_income=[]
+# напишите цикл, который заполнит monthly_income значениями
+for income in payers:
+    monthly_income.append(income*purchase_amount)
+print(monthly_income) # выводим новый список на экран
